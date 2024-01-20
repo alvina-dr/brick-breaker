@@ -5,10 +5,11 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     [SerializeField] private float speed;
-    [SerializeField] private Rigidbody2D rigibody;
+    public Rigidbody2D rigibody;
+    public int attackDamage;
 
     public void LaunchBall()
     {
-        rigibody.AddForce(new Vector2(0, speed));
+        rigibody.AddForce(new Vector2(30f, speed));
     }
 }

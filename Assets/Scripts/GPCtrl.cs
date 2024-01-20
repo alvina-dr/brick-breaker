@@ -5,7 +5,7 @@ using UnityEngine;
 public class GPCtrl : MonoBehaviour
 {
     public static GPCtrl Instance;
-    Player player;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
