@@ -5,11 +5,13 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Ball currentBall;
+    public int playerIndex { get; private set; }
     [SerializeField] Rigidbody2D rigibody;
     [SerializeField] private Ball ballPrefab;
     [SerializeField] private Transform ballHolder;
     [SerializeField] private float speed;
     [SerializeField] private float maxBouncedAngle;
+    public List<PlayerInput> playerInputList = new List<PlayerInput>();
     float direction;
 
     private void Start()
@@ -22,15 +24,15 @@ public class Player : MonoBehaviour
     private void Update()
     {
         direction = 0;
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(playerInputList[playerIndex].left))
         {
             direction = -speed;
         }
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(playerInputList[playerIndex].right))
         {
             direction = speed;
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(playerInputList[playerIndex].interract))
         {
             Shoot();
         }
@@ -57,7 +59,7 @@ public class Player : MonoBehaviour
         {
             Vector3 _paddlePosition = transform.position;
             Vector2 _contactPoint = _collision.GetContact(0).point;
-            
+
             float _offset = _paddlePosition.x - _contactPoint.x;
             float _width = _collision.otherCollider.bounds.size.x / 2;
 
@@ -68,5 +70,18 @@ public class Player : MonoBehaviour
             Quaternion _rotation = Quaternion.AngleAxis(_newAngle, Vector3.forward);
             _ball.rigibody.velocity = _rotation * Vector3.up * _ball.rigibody.velocity.magnitude;
         }
+    }
+
+    public void SetupPlayer(int _playerIndex)
+    {
+        playerIndex = _playerIndex;
+        //setup input
+    }
+
+    [System.Serializable]
+    public class PlayerInput {
+        public KeyCode left;
+        public KeyCode right;
+        public KeyCode interract;
     }
 }

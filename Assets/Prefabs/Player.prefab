@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3719899016622071243}
   - component: {fileID: 7607088903269751954}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8288444036660179985}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BallTransform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 9183539636578801649}
   - component: {fileID: 3646402149274781955}
   - component: {fileID: 235681470199451850}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,6 +168,13 @@ MonoBehaviour:
   ballHolder: {fileID: 8288444036660179985}
   speed: 30
   maxBouncedAngle: 75
+  playerInputList:
+  - left: 276
+    right: 275
+    interract: 273
+  - left: 97
+    right: 100
+    interract: 119
 --- !u!50 &3646402149274781955
 Rigidbody2D:
   serializedVersion: 4
