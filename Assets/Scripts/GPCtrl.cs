@@ -5,6 +5,7 @@ using UnityEngine;
 public class GPCtrl : MonoBehaviour
 {
     public static GPCtrl Instance;
+    public int ScoreCount;
 
     private void Awake()
     {
@@ -23,8 +24,9 @@ public class GPCtrl : MonoBehaviour
         Debug.Log("START GAME");
     }
 
-    public void SpecialEffect()
+    public void AddScore(int points)
     {
-        
+        ScoreCount += points;
     }
+
 }

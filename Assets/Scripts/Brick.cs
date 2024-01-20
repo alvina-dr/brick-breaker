@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Build.Content;
 using UnityEngine;
 
 public class Brick : MonoBehaviour
 {
     [SerializeField] private int currentHealth;
+    [SerializeField] private int PointsForDestroying = 10;
     private void Damage(int _damage)
     {
         currentHealth -= _damage;
@@ -16,6 +18,7 @@ public class Brick : MonoBehaviour
 
     private void Death()
     {
+        GPCtrl.Instance.AddScore(PointsForDestroying);
         Destroy(gameObject);
     }
 
@@ -28,4 +31,5 @@ public class Brick : MonoBehaviour
             Damage(_ball.attackDamage);
         }
     }
+
 }
