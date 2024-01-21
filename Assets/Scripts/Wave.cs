@@ -12,7 +12,10 @@ public class Wave : MonoBehaviour
     {
         transform.DOKill();
         Debug.Log(GPCtrl.Instance.GeneralData.waveSpeed);
-        transform.DOMoveY(transform.position.y-GPCtrl.Instance.GeneralData.waveSpeed, .5f).SetEase(Ease.Linear).SetLoops(-1, LoopType.Incremental);
+        Sequence _sequence = DOTween.Sequence();
+        _sequence.Append(transform.DOMoveY(transform.position.y - 1, .5f).SetEase(Ease.Linear));
+        _sequence.AppendInterval(GPCtrl.Instance.GeneralData.waveSpeed);
+        _sequence.SetLoops(-1, LoopType.Incremental);
     }
 
     public int GetTilemapHeight()

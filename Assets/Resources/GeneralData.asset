@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8a305eb85261f94fba3986f37ace745, type: 3}
   m_Name: GeneralData
   m_EditorClassIdentifier: 
-  waveSpeed: 0.1
+  waveSpeed: 4
   ballSpeedUpgrade: 1.2
-  paradeDelay: 0.5
+  paradeDelay: 0.3
