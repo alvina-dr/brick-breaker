@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4600390168114643411}
-  - component: {fileID: 103529556057689387}
+  - component: {fileID: 1104971227391519044}
   - component: {fileID: 4879476941320221167}
-  - component: {fileID: 1051967540820435956}
+  - component: {fileID: 9005824465276386049}
   m_Layer: 0
-  m_Name: ProtectorBrick
+  m_Name: FastBrick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,7 +35,7 @@ Transform:
   - {fileID: 6705107077179130013}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &103529556057689387
+--- !u!114 &1104971227391519044
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,12 +44,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1828902277664730331}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19858d18dabbd0140be87dc00284a1cc, type: 3}
+  m_Script: {fileID: 11500000, guid: d3df3386354335b49bf16c381ad3f487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boxCollider: {fileID: 4879476941320221167}
   currentHealth: 1
-  PointsForDestroying: 50
+  PointsForDestroying: 100
+  DownSpeed: 0.2
 --- !u!61 &4879476941320221167
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -95,7 +96,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &1051967540820435956
+--- !u!50 &9005824465276386049
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -195,7 +196,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -977426828, guid: 51c2db41738b4ca408321deaceed645f, type: 3}
+  m_Sprite: {fileID: -893901069, guid: 285abcf5ab598654b96ceeb6622f0810, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class SuperBrick : Brick
 {
-    private void Damage(int _damage)
+
+    public override void Damage(int _damage)
     {
         currentHealth -= _damage;
 
@@ -20,4 +21,5 @@ public class SuperBrick : Brick
         yield return new WaitForSeconds(_delay);
         currentHealth = 2;
     }
+
 }
