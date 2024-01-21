@@ -849,8 +849,7 @@ MonoBehaviour:
   ScoreCount: 0
   levelID: 0
   offset: 0
-  levelList:
-  - {fileID: 11400000, guid: 7be28188b3a609140830935d6bd78e4b, type: 2}
+  levelList: []
   waveList: []
   gridTransform: {fileID: 405944749}
 --- !u!4 &530164748

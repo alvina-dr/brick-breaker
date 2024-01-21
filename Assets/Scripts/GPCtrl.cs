@@ -13,8 +13,8 @@ public class GPCtrl : MonoBehaviour
     public int ScoreCount;
     public int levelID = 0;
     public float offset;
-    public List<LevelData> levelList = new List<LevelData>();
-    public List<Wave> waveList = new List<Wave>();
+    private List<LevelData> levelList = new List<LevelData>();
+    private List<Wave> waveList = new List<Wave>();
     [SerializeField] private Transform gridTransform;
 
     private void Awake()
@@ -26,6 +26,11 @@ public class GPCtrl : MonoBehaviour
         else
         {
             Instance = this;
+        }
+        LevelData[] _levelArray = Resources.LoadAll<LevelData>("Level");
+        for (int i = 0; i < _levelArray.Length; i++)
+        {
+            levelList.Add(_levelArray[i]);
         }
     }
 
@@ -43,11 +48,15 @@ public class GPCtrl : MonoBehaviour
 
     private void Update()
     {
-        //if (FindObjectsOfType<Brick>().Length == 0)
-        //{
-        //    //next level
-        //    StartLevel();
-        //}
+        if (FindObjectsOfType<Brick>().Length == 0)
+        {
+            RegisterMaxLevel();
+            levelID++;
+            if (levelID < levelList.Count)
+                StartLevel();
+            else
+                Win();
+        }
     }
 
     public void StartLevel()
@@ -72,4 +81,14 @@ public class GPCtrl : MonoBehaviour
         Debug.Log("GAME OVER");
     }
 
+    public void Win()
+    {
+        Debug.Log("WIN WHOLE GAME");
+    }
+
+    public void RegisterMaxLevel()
+    {
+        int _maxLevel = PlayerPrefs.GetInt("maxLevel");
+        if (_maxLevel < levelID) PlayerPrefs.SetInt("maxLevel", levelID);
+    }
 }

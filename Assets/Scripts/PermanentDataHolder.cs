@@ -7,6 +7,7 @@ public class PermanentDataHolder : MonoBehaviour
 {
     public static PermanentDataHolder Instance;
     public int playerNumber;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
