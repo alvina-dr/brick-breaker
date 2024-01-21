@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: 0
   m_EditorClassIdentifier: 
   waveList:
-  - {fileID: 906597430080251654, guid: a9fb020267b6110479a788c357fcff0f, type: 3}
-  - {fileID: 906597430080251654, guid: a9fb020267b6110479a788c357fcff0f, type: 3}
-  - {fileID: 906597430080251654, guid: a9fb020267b6110479a788c357fcff0f, type: 3}
+  - wave: {fileID: 906597430080251654, guid: a9fb020267b6110479a788c357fcff0f, type: 3}
+    spaceBeforeWave: 0
+  - wave: {fileID: 906597430080251654, guid: a9fb020267b6110479a788c357fcff0f, type: 3}
+    spaceBeforeWave: 2
+  - wave: {fileID: 906597430080251654, guid: a9fb020267b6110479a788c357fcff0f, type: 3}
+    spaceBeforeWave: 0

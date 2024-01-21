@@ -6,4 +6,6 @@ using UnityEngine;
 public class GeneralData : ScriptableObject
 {
     public float waveSpeed;
+    public float ballSpeedUpgrade;
+    public float paradeDelay;
 }

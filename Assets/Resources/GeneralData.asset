@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: GeneralData
   m_EditorClassIdentifier: 
   waveSpeed: 0.1
+  ballSpeedUpgrade: 1.2
+  paradeDelay: 0.5
