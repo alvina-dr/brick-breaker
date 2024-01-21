@@ -16,9 +16,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        currentBall = Instantiate(ballPrefab);
-        currentBall.transform.position = ballHolder.position;
-        currentBall.transform.parent = ballHolder;
+        GetBall();
     }
 
     private void Update()
@@ -49,6 +47,14 @@ public class Player : MonoBehaviour
         currentBall.transform.parent = null;
         currentBall.LaunchBall();
         currentBall = null;
+    }
+
+    public void GetBall()
+    {
+        Debug.Log("GET BALL");
+        currentBall = Instantiate(ballPrefab);
+        currentBall.transform.position = ballHolder.position;
+        currentBall.transform.parent = ballHolder;
     }
 
     private void OnCollisionEnter2D(Collision2D _collision)
