@@ -61,7 +61,6 @@ public class Player : MonoBehaviour
 
     public void GetBall()
     {
-        Debug.Log("GET BALL");
         currentBall = Instantiate(ballPrefab);
         currentBall.transform.position = ballHolder.position;
         currentBall.transform.parent = ballHolder;
@@ -76,7 +75,6 @@ public class Player : MonoBehaviour
 
     public void GrabBall(Ball _ball)
     {
-        Debug.Log("GRAB BALL");
         currentBall = _ball;
         currentBall.DeactivateMovement();
         currentBall.transform.parent = ballHolder;
@@ -119,7 +117,6 @@ public class Player : MonoBehaviour
     public void SetupPlayer(int _playerIndex)
     {
         playerIndex = _playerIndex;
-        //setup input
     }
 
     [System.Serializable]

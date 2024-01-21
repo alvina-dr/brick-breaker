@@ -11,11 +11,6 @@ public class OutOfField : MonoBehaviour
 
     [SerializeField] private DetectionType detectionType;
 
-    private void Start()
-    {
-        
-    }
-
     private void OnTriggerEnter2D(Collider2D _collision)
     {
         switch (detectionType)
@@ -35,11 +30,9 @@ public class OutOfField : MonoBehaviour
                 }
                 break;
             case DetectionType.Brick:
-                Debug.Log("COLLISION " + _collision.name);
                 Brick _brick = _collision.GetComponent<Brick>();
                 if (_brick != null)
                 {
-                    Debug.Log("BRICK COLLISION");
                     GPCtrl.Instance.GameOver();
                 }
                 break;
