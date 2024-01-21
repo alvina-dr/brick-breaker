@@ -1,0 +1,1363 @@
+fileFormatVersion: 2
+guid: 7bd9503c31253a4478c00c8622c61349
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 410
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2bde60f7bf58f45a41010d00e9cf83
+      internalID: -823089793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 410
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff38ed3675b7de468c6023dd970feed
+      internalID: 1062552488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 410
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922604d6af6bff54289a4cdbed49e1d3
+      internalID: 716411763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 410
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f42427655c39a4d927f3a3208e2b09
+      internalID: 2127590245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 410
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce08e90ba42b8f48bde6886761d1d04
+      internalID: 216903156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 410
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9b789ed7b60f342b5a83f4bb81c923
+      internalID: -1261678877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 359
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406a6062c9f6683428e4a51ed97495a9
+      internalID: -1609294049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 359
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c38895f7a08f38429d3fe93f9ca0da3
+      internalID: 404074451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 359
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0083a241bb96f7048a14a92833a5a530
+      internalID: -1469840424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 359
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be76d0f8eb64ed489061e841798d67f
+      internalID: 1787917323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 359
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e875f3ce06806c44da480da725534573
+      internalID: 1100554629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 359
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8aca8ae4fd69554ca2f72248fec99bd
+      internalID: -1142955121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 308
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cbe63e01e31ec46ae6afa86450e3ab
+      internalID: 382701466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 308
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7287b17139eca04fbf3cd555fb86fcf
+      internalID: 707050957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 308
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ec10193ea35744b8d02275eac2010d
+      internalID: 189857123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 308
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121ca65f0971a224784142e3acb42032
+      internalID: 1900421836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 308
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abf9f7f0d9d01546a2bf547c7ced463
+      internalID: 1655426106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 308
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96541537f713ca2498db0ea4a78dba9c
+      internalID: -418625835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 257
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235bbfdcdf4d8354da1ce17c6c3f81a6
+      internalID: -666572248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 257
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4459ab8134010de4ca727505ace5e9b6
+      internalID: 1648945393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 257
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94a525cd4668e64ebcf6f93d4f345be
+      internalID: 770808816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 257
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2e47f3c9cf4a440bfab4fefcc92b2b
+      internalID: 284148698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 256
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f995450aed60f614392b2ea341fa0fb9
+      internalID: -1108028762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 255
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9a1327fecf59a4a84824f9de01377c
+      internalID: -1081392126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af24671f03d885a4fba7bc060ef6beb4
+      internalID: 833122177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02683ba098c35147873a7c5d30816e5
+      internalID: 1775695559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f180738e2f7fa25489063cab8f66ba02
+      internalID: -879055223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697afabe7e35ca24cbe03a5441203e73
+      internalID: 617809361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cd8810d6ae35a45803eeda26ef519a
+      internalID: 934650725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cd2a7aeb8238a4798292818b4563ea
+      internalID: 1867822326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53aee4efaeba5bc4e845cdeabacf16ac
+      internalID: -2052138762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2395507cd01504db2d4d6f1ab43bc1
+      internalID: 1205736509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b55e74e597438f4ba776206cb49ed68
+      internalID: 70603750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 155
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4f7fd74244e2a4fa1281ce527cf7a0
+      internalID: -617860302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 155
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6926a4e4a73bf94d8383abb3b96cf2d
+      internalID: -2133176723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 155
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b8304de00883f4aadb0d071ce028f8
+      internalID: -336559499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 155
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff24f20468b689428fbe4b380b5dc91
+      internalID: 1968262794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 155
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e201837bc6aaf4384785059c0a5b91
+      internalID: -1485046768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 51
+        width: 47
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c387a3711806c0a4cbe28df7ee05763d
+      internalID: -220761729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 104
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a610e0bf437e745a6e67e3038fddef
+      internalID: 1994032164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 104
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5cf0520aed62b409d5d6a3a1374e76
+      internalID: 104476560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 104
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7337dc19c6adf64c85aa0df2c99d5bf
+      internalID: 1499164245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 104
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f74ce5ce258dca4d9b833c7a9ef1fd8
+      internalID: -1557042836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 104
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868a27371d644f0428f896ab22ca59cb
+      internalID: -1385337927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 53
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca84883654fcf354991a00d0f2da2f59
+      internalID: -15173469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 53
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccd2464200999a41be1adccd1ca4957
+      internalID: 1047916695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 53
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72bee43bbd3df242b6dfd855bc974a9
+      internalID: 14639227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 53
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e832bc2ada4ee0448be0fd6b0f5962f
+      internalID: -821490168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 53
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedfd7f5109a4ad49bb55b31781ed48f
+      internalID: 707051620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3c66e089448f347aef8bd3f9845378
+      internalID: -1406348542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 7
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a82adc2dd5df694b91567f32cfe8ecd
+      internalID: -1241540608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f6e4b8afc1edc43b70617da209aa6a
+      internalID: 1125608966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 2
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdcb21d669dc9b41977f2bfd2f50ea2
+      internalID: -1167806814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57adb2815910b524185d6ef86eecd892
+      internalID: -498246537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickProtect_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 2
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32963f6ca2faa0042af264e5350562e6
+      internalID: 2049500028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BrickProtect_spritesheet_0: -823089793
+      BrickProtect_spritesheet_1: 1062552488
+      BrickProtect_spritesheet_10: 1100554629
+      BrickProtect_spritesheet_11: -1142955121
+      BrickProtect_spritesheet_12: 382701466
+      BrickProtect_spritesheet_13: 707050957
+      BrickProtect_spritesheet_14: 189857123
+      BrickProtect_spritesheet_15: 1900421836
+      BrickProtect_spritesheet_16: 1655426106
+      BrickProtect_spritesheet_17: -418625835
+      BrickProtect_spritesheet_18: -666572248
+      BrickProtect_spritesheet_19: 1648945393
+      BrickProtect_spritesheet_2: 716411763
+      BrickProtect_spritesheet_20: 770808816
+      BrickProtect_spritesheet_21: 284148698
+      BrickProtect_spritesheet_22: -1108028762
+      BrickProtect_spritesheet_23: -1081392126
+      BrickProtect_spritesheet_24: 833122177
+      BrickProtect_spritesheet_25: 1775695559
+      BrickProtect_spritesheet_26: -879055223
+      BrickProtect_spritesheet_27: 617809361
+      BrickProtect_spritesheet_28: 934650725
+      BrickProtect_spritesheet_29: 1867822326
+      BrickProtect_spritesheet_3: 2127590245
+      BrickProtect_spritesheet_30: -2052138762
+      BrickProtect_spritesheet_31: 1205736509
+      BrickProtect_spritesheet_32: 70603750
+      BrickProtect_spritesheet_33: -617860302
+      BrickProtect_spritesheet_34: -2133176723
+      BrickProtect_spritesheet_35: -336559499
+      BrickProtect_spritesheet_36: 1968262794
+      BrickProtect_spritesheet_37: -1485046768
+      BrickProtect_spritesheet_38: -220761729
+      BrickProtect_spritesheet_39: 1994032164
+      BrickProtect_spritesheet_4: 216903156
+      BrickProtect_spritesheet_40: 104476560
+      BrickProtect_spritesheet_41: 1499164245
+      BrickProtect_spritesheet_42: -1557042836
+      BrickProtect_spritesheet_43: -1385337927
+      BrickProtect_spritesheet_44: -15173469
+      BrickProtect_spritesheet_45: 1047916695
+      BrickProtect_spritesheet_46: 14639227
+      BrickProtect_spritesheet_47: -821490168
+      BrickProtect_spritesheet_48: 707051620
+      BrickProtect_spritesheet_49: -1406348542
+      BrickProtect_spritesheet_5: -1261678877
+      BrickProtect_spritesheet_50: -1241540608
+      BrickProtect_spritesheet_51: 1125608966
+      BrickProtect_spritesheet_52: -1167806814
+      BrickProtect_spritesheet_53: -498246537
+      BrickProtect_spritesheet_54: 2049500028
+      BrickProtect_spritesheet_6: -1609294049
+      BrickProtect_spritesheet_7: 404074451
+      BrickProtect_spritesheet_8: -1469840424
+      BrickProtect_spritesheet_9: 1787917323
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

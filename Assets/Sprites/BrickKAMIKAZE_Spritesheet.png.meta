@@ -1,0 +1,1363 @@
+fileFormatVersion: 2
+guid: 464a4cab4e8e4854a827012646fcd276
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 410
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af830094592e1054b92e96ec75744d1e
+      internalID: -2008251081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 410
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5ce418b588ea849acf98bdfbc0c8ca
+      internalID: -662323646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 410
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fc42783d68be84995cbbf08c2a3461
+      internalID: 1840736319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 410
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c372abeda8755e4fa00174c3fbc580c
+      internalID: 591924228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 410
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c31acc492c95148a09ef775b6a4bd6
+      internalID: -220487631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 410
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815c5ee34b0da714da99955c1c8140fb
+      internalID: 841748668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 359
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd1dbaf9d187b54a94f28575bdf1786
+      internalID: -345755624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 359
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37e1510a561a9244a42af4d80d4baf3
+      internalID: -652548215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 359
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9e4ddc4044b294daa9da023a16edce
+      internalID: 1097121137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 359
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b60a2eae33d474d8000b0986187c68
+      internalID: -1180828027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 359
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7266e14b9b603644a90c61d9c809ba6b
+      internalID: 1213807564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 359
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84dcb845025efb41a5de6fc7286c648
+      internalID: -473715746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 308
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae0db7d381c7aa40af6d6943e463d73
+      internalID: 101706609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 308
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6365d714b791c1f41a288692937b589a
+      internalID: -1574762599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 308
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c568a75ad91bada4c8c9be7942c27d09
+      internalID: 123435801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 308
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8b5c9afc84e6a4c98ae45ce68bab44
+      internalID: 307505398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 308
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649f209db76797d4090e19b57288b0ad
+      internalID: 339835978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 308
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709e32b47a9185c47abade1070a60011
+      internalID: 1851582312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 257
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ecd7f62394b564488303c8be0a8f5c
+      internalID: -922157139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 257
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2076dfc18ade1e3468b1bb8ff0526afb
+      internalID: -1271247853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 257
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f32ef111cf74aa4b9b739cd2e1d06fa
+      internalID: -733109274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 257
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cf080ee7c52644e936f795460eef9d
+      internalID: -1453234503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 256
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c077dd489c2d34792dfa1008e155e2
+      internalID: 1915407698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 255
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbccaff358e3854dbda972330bd4634
+      internalID: -628010124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7394b255d01f94aa7b5a63e187be4d
+      internalID: -230465482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34403bac3394f3c4f8223b2563e67cf5
+      internalID: -1700959623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f622c91471fed4a9923f0ceb8258ae
+      internalID: -42095466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a143a48d6b5a0a43bf0bca0931c3e91
+      internalID: -647195882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7e259ab4557ca47b9b9b31a4f05669
+      internalID: -2042214961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819183989f8a7854b9dfac4b620de251
+      internalID: -723012616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f8f9cd2a8afa04f81c3e4580016406
+      internalID: -1140697431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 206
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ec339f8103a694685f29286f2fa0e2
+      internalID: -1468946737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f41ac6783381e43a116f2ad585708f
+      internalID: -1578957750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 155
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4371d1eeb3b67842ab7bca0c4e8870a
+      internalID: -1382298828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 155
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05028f5548d28a540b3d4e388233e61f
+      internalID: -1540468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 155
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d39ea4c1e2b2844eb3a3e4566d227c2
+      internalID: -630144624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 155
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6241f1e14f60326499e854fff015ad5c
+      internalID: -499113536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 155
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cecae5c031650044be8af53241590da
+      internalID: -1278650095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 51
+        width: 47
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508da04c346d016408a354ac004785c6
+      internalID: 230967378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 104
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3644b205324b02642b37f525e6851e85
+      internalID: -190911296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 104
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59be27b24d767074ca8928f8ce4418e3
+      internalID: 323798821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 104
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b87b71a47cee2546b01b2629b077e38
+      internalID: 848931031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 104
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b79f566410105459f5d1e3c55304a8
+      internalID: 433053968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 104
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d0d822507549141804eace3b24450b
+      internalID: 1959039402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 53
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedc7e0a31b0a964ea83a1ab43d7b186
+      internalID: 1061713437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 53
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1e6c316cc92b045a8ebabd81f72dbb
+      internalID: -762063231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 53
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc60cc03a030a42489e560b33f50b83d
+      internalID: 794044726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 53
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37da19854af575141afe723e41cef0c9
+      internalID: -908127766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 53
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7958bfadc6a8924b9ada6a2485f62e8
+      internalID: -1712939700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a0eafcbf5464c4b88c46421fec04bc
+      internalID: -2059422669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 7
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3e3615bf1aff341a87083131cf187c
+      internalID: 1055939706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c0f4be000af07409a91c179f82960a
+      internalID: 1054663541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 2
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1b84c877d37544399097edda049284
+      internalID: -2017153242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6e7508f41d1074989e55d63072d8af
+      internalID: 531966023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickKAMIKAZE_Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 2
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f658829d9d2d2449d02f5d289429df
+      internalID: -1901501847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BrickKAMIKAZE_Spritesheet_0: -2008251081
+      BrickKAMIKAZE_Spritesheet_1: -662323646
+      BrickKAMIKAZE_Spritesheet_10: 1213807564
+      BrickKAMIKAZE_Spritesheet_11: -473715746
+      BrickKAMIKAZE_Spritesheet_12: 101706609
+      BrickKAMIKAZE_Spritesheet_13: -1574762599
+      BrickKAMIKAZE_Spritesheet_14: 123435801
+      BrickKAMIKAZE_Spritesheet_15: 307505398
+      BrickKAMIKAZE_Spritesheet_16: 339835978
+      BrickKAMIKAZE_Spritesheet_17: 1851582312
+      BrickKAMIKAZE_Spritesheet_18: -922157139
+      BrickKAMIKAZE_Spritesheet_19: -1271247853
+      BrickKAMIKAZE_Spritesheet_2: 1840736319
+      BrickKAMIKAZE_Spritesheet_20: -733109274
+      BrickKAMIKAZE_Spritesheet_21: -1453234503
+      BrickKAMIKAZE_Spritesheet_22: 1915407698
+      BrickKAMIKAZE_Spritesheet_23: -628010124
+      BrickKAMIKAZE_Spritesheet_24: -230465482
+      BrickKAMIKAZE_Spritesheet_25: -1700959623
+      BrickKAMIKAZE_Spritesheet_26: -42095466
+      BrickKAMIKAZE_Spritesheet_27: -647195882
+      BrickKAMIKAZE_Spritesheet_28: -2042214961
+      BrickKAMIKAZE_Spritesheet_29: -723012616
+      BrickKAMIKAZE_Spritesheet_3: 591924228
+      BrickKAMIKAZE_Spritesheet_30: -1140697431
+      BrickKAMIKAZE_Spritesheet_31: -1468946737
+      BrickKAMIKAZE_Spritesheet_32: -1578957750
+      BrickKAMIKAZE_Spritesheet_33: -1382298828
+      BrickKAMIKAZE_Spritesheet_34: -1540468
+      BrickKAMIKAZE_Spritesheet_35: -630144624
+      BrickKAMIKAZE_Spritesheet_36: -499113536
+      BrickKAMIKAZE_Spritesheet_37: -1278650095
+      BrickKAMIKAZE_Spritesheet_38: 230967378
+      BrickKAMIKAZE_Spritesheet_39: -190911296
+      BrickKAMIKAZE_Spritesheet_4: -220487631
+      BrickKAMIKAZE_Spritesheet_40: 323798821
+      BrickKAMIKAZE_Spritesheet_41: 848931031
+      BrickKAMIKAZE_Spritesheet_42: 433053968
+      BrickKAMIKAZE_Spritesheet_43: 1959039402
+      BrickKAMIKAZE_Spritesheet_44: 1061713437
+      BrickKAMIKAZE_Spritesheet_45: -762063231
+      BrickKAMIKAZE_Spritesheet_46: 794044726
+      BrickKAMIKAZE_Spritesheet_47: -908127766
+      BrickKAMIKAZE_Spritesheet_48: -1712939700
+      BrickKAMIKAZE_Spritesheet_49: -2059422669
+      BrickKAMIKAZE_Spritesheet_5: 841748668
+      BrickKAMIKAZE_Spritesheet_50: 1055939706
+      BrickKAMIKAZE_Spritesheet_51: 1054663541
+      BrickKAMIKAZE_Spritesheet_52: -2017153242
+      BrickKAMIKAZE_Spritesheet_53: 531966023
+      BrickKAMIKAZE_Spritesheet_54: -1901501847
+      BrickKAMIKAZE_Spritesheet_6: -345755624
+      BrickKAMIKAZE_Spritesheet_7: -652548215
+      BrickKAMIKAZE_Spritesheet_8: 1097121137
+      BrickKAMIKAZE_Spritesheet_9: -1180828027
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

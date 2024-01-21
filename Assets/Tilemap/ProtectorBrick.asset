@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
-  m_Name: KamikazeBrick
+  m_Name: ProtectorBrick
   m_EditorClassIdentifier: 
-  m_DefaultSprite: {fileID: -2008251081, guid: 464a4cab4e8e4854a827012646fcd276, type: 3}
-  m_DefaultGameObject: {fileID: 1828902277664730331, guid: c52056c036b28154ea68fc8effe94192, type: 3}
+  m_DefaultSprite: {fileID: -823089793, guid: 7bd9503c31253a4478c00c8622c61349, type: 3}
+  m_DefaultGameObject: {fileID: 1828902277664730331, guid: 7f7fcf52240824a458e27cbe0c1f69bf, type: 3}
   m_DefaultColliderType: 1
   m_TilingRules: []

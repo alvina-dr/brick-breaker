@@ -11,8 +11,9 @@ public class GPCtrl : MonoBehaviour
     public Player playerPrefab;
     public List<Player> playerList = new List<Player>();
     public int ScoreCount;
-    public int levelID = -1;
-    public List<GameObject> levelList = new List<GameObject>();
+    public int levelID = 0;
+    public float offset;
+    public List<LevelData> levelList = new List<LevelData>();
     [SerializeField] private Transform gridTransform;
 
     private void Awake()
@@ -36,23 +37,27 @@ public class GPCtrl : MonoBehaviour
             _player.SetupPlayer(i);
             playerList.Add(_player);
         }
-        DOVirtual.DelayedCall(2f, () => StartLevel());
-
+        StartLevel();
     }
 
     private void Update()
     {
-        if (FindObjectsOfType<Brick>().Length == 0)
-        {
-            //next level
-            StartLevel();
-        }
+        //if (FindObjectsOfType<Brick>().Length == 0)
+        //{
+        //    //next level
+        //    StartLevel();
+        //}
     }
 
     public void StartLevel()
     {
-        levelID++;
-        Instantiate(levelList[levelID]);
+        int height = 0;
+        for (int i = 0; i < levelList[levelID].waveList.Count; i++)
+        {
+            Wave _wave = Instantiate(levelList[levelID].waveList[i], gridTransform);
+            height += _wave.GetTilemapHeight();
+            _wave.transform.position = gridTransform.position + new Vector3(0, height + offset, 0);
+        }
     }
 
     public void AddScore(int points)
