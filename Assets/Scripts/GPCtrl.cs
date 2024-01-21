@@ -14,6 +14,7 @@ public class GPCtrl : MonoBehaviour
     public int levelID = 0;
     public float offset;
     public List<LevelData> levelList = new List<LevelData>();
+    public List<Wave> waveList = new List<Wave>();
     [SerializeField] private Transform gridTransform;
 
     private void Awake()
@@ -51,12 +52,13 @@ public class GPCtrl : MonoBehaviour
 
     public void StartLevel()
     {
-        int height = 0;
+        float height = 0;
         for (int i = 0; i < levelList[levelID].waveList.Count; i++)
         {
-            Wave _wave = Instantiate(levelList[levelID].waveList[i], gridTransform);
-            height += _wave.GetTilemapHeight();
+            Wave _wave = Instantiate(levelList[levelID].waveList[i].wave, gridTransform);
+            height += _wave.GetTilemapHeight() + levelList[levelID].waveList[i].spaceBeforeWave;
             _wave.transform.position = gridTransform.position + new Vector3(0, height + offset, 0);
+            waveList.Add(_wave);
         }
     }
 
